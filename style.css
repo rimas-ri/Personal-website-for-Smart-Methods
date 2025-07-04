@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: "Red Hat Display";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation{
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a{
+    color: rgb(2, 19, 25);
+    font-family: "Red Hat Display";
+}
+
+.flower {
+    height: 300px;
+    border: solid rgb(229, 202, 230);
+    border-radius: 5px;
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-right: 20px; 
+    margin-bottom: 20px;
+}
+
+.first {
+    float: left;
+}
+
+p{
+    font-family:"Red Hat Display";
+    font-size: large;
+    color: rgb(82, 80, 80);
+}
+
+.kau {
+    border: solid rgb(229, 202, 230);
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-links{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.app-container {
+    flex: 1;
+    padding: 20px;
+    max-width: 300px;
+    background-color: rgb(254, 224, 251);
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.app-title {
+    font-family:"Red Hat Display";
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.app-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+li{
+    list-style-type: none;
+    text-align: left;
+    font-family:"Red Hat Display"; 
+}
+
+.photo {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.photos{
+    flex: 1;
+    padding: 20px;
+    max-width: 350px;
+    justify-content: center;
+}
+
+.photo-img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
